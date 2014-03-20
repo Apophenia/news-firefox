@@ -1,0 +1,8 @@
+{
+  "name": "owncloud-feed",
+  "title": "owncloud-feed",
+  "id": "jid1-FrZBk65xVWi2Sg",
+  "description": "An add-on that allows users to remotely add RSS feeds to ownCloud",
+  "author": "github.com/apophenia",
+  "version": "0.1"
+}
