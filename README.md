@@ -13,13 +13,13 @@ Installation
 ====
 The app can be run with the add-on SDK (1.15) in the following manner:
 
-1. Clone this repository and navigate to its directory
-2. Activate the mozilla add-on SDK environment:
+* Clone this repository and navigate to its directory
+* Activate the mozilla add-on SDK environment: 
 ```sh
 source path/to/sdk/environment/bin/activate
 ```
-3. Manually edit the ownCloudLoc variable in lib/main.js to point toward the location of your ownCloud installation
-4. Run the extension with 
+* Manually edit the ownCloudLoc variable in lib/main.js to point toward the location of your ownCloud installation
+* Run the extension:
 ```sh
 cfx run
 ```
