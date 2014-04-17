@@ -6,7 +6,7 @@
     "author": "github.com/apophenia",
     "version": "0.1",
     "preferences": [
-	{ "name": "ownCloudLocation",
+	{ "name": "ownCloudLoc",
           "title": "ownCloud Installation Location",
           "description": "URL of the ownCloud installation, e.g. http://yourserver.com/owncloud",
           "type": "string",
