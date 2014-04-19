@@ -1,0 +1,17 @@
+var main = require("./main");
+
+exports["test main"] = function(assert) {
+  assert.pass("Unit test running!");
+};
+
+exports["test formatLoc"] = function(assert) {
+      assert.ok(main.formatLoc("http://github.com/") ===
+		"http://github.com");
+}
+ 
+exports["test main async"] = function(assert, done) {
+  assert.pass("async Unit test running!");
+  done();
+};
+
+require("sdk/test").run(exports);
