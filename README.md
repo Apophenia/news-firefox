@@ -1,13 +1,10 @@
-Owncloud Firefox Feeds
+ownCloud News Firefox Feeds
 =================
-A Firefox extension that allows users to add feeds from remote websites.
+A Firefox extension that allows users to add feeds to the ownCloud News App while navigating the web.
 
 Status
 ====
-The add-on is pre-alpha and does not yet add feeds. The add-on currently consists of a widget that will retrieve a user's feeds and print them to the console. The add-on will successfully make a request if:
-* The user is logged into ownCloud,
- _OR_
-* The user has ownCloud password information saved in the Firefox credentials manager
+The add-on is pre-alpha and does not yet have a functional UI. The add-on currently consists of a widget that will add the current page's feed to the ownCloud News App. The add-on will only successfully make a request if the user has ownCloud password information saved in the Firefox credentials manager. It will fail if the authorization details are incorrect, or if the current page does not contain a valid RSS feed.
 
 Installation
 ====
@@ -18,11 +15,11 @@ The app can be run with the add-on SDK (1.15) in the following manner:
 ```sh
 source path/to/sdk/environment/bin/activate
 ```
-* Manually edit the ownCloudLoc variable in lib/main.js to point toward the location of your ownCloud installation
+
 * Run the extension:
 ```sh
 cfx run
 ```
 This should use the SDK to launch a new instance of Firefox. The SDK should automatically choose a template and Firefox binary to use.
 
-
+* Input your ownCloud installation location and ownCloud credentials in your Firefox extension preferences. You can find extension preferences by navigating to Tools > Add-ons > Extensions, locating the News App extension, and then clicking the "Preferences" button.
