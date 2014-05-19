@@ -4,7 +4,7 @@ A Firefox extension that allows users to add feeds to the ownCloud News App whil
 
 Status
 ====
-The add-on is pre-alpha and does not yet have a functional UI. The add-on currently consists of a widget that will add the current page's feed to the ownCloud News App. The add-on will only successfully make a request if the user has ownCloud password information saved in the Firefox credentials manager. It will fail if the authorization details are incorrect, or if the current page does not contain a valid RSS feed.
+The add-on is pre-alpha and does not yet have a functional UI. The add-on currently consists of a widget that will add the current page's feed to the ownCloud News App. The add-on will only successfully make a request if the user has ownCloud password information saved in the Firefox add-on preferences manager. It will fail if the authorization details are incorrect, or if the current page does not contain a valid RSS feed.
 
 Installation
 ====
